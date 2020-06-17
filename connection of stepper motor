@@ -1,0 +1,29 @@
+the materials ; 
+stepper motor 
+arduino uno 
+battery 
+board 
+L298D driver 
+
+
+
+
+the connection of the circuit as follow : 
+
+In H bridge motor driver 
+
+connect the vcc1 with pin 1,2 EN and vcc2 with pin 3,4 EN .
+Then connect them together 
+Connect the ground pins together in each side then connect the both sides together .
+Connect the the enable ground  in motor with the output 3 pin in L298D 
+Connect the channel b in the motor with the output 4 pin in L298D 
+Connect the channel a in the  with the output 2 pin in L298D 
+Connect the the enable power in the  motor with the output 1 pin in L298D  . 
+
+In Arduino uno  
+The 8,9,10,11 pins to pin 1,2 EN of L298D
+Pin 9  to output 3 pin of L298D
+
+The battery 
+The positive to motor positive 
+The negative to motor negative 
