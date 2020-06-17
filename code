@@ -1,0 +1,31 @@
+here is the code for stepper motor controlled by arduino uno 
+
+#include <Stepper.h> 
+
+//  number of steps on stepmotor motor
+#define STEPS 200
+int numb=0;
+
+
+// i use pin 8,9,10,11
+Stepper stepper(STEPS, 8, 10, 9, 11);
+
+
+
+void setup() { //output info as a stepper motor moving 
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(11, OUTPUT);
+  
+  Serial.begin(9600);
+  stepper.setSpeed(9);//motor speed set at pin 9
+}
+
+void loop() {
+
+  
+    stepper.step(numb);// the step motor will run at numb steps
+ 
+    
+}
