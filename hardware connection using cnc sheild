@@ -1,0 +1,15 @@
+the materials : 
+
+CNC shield 
+DRV8825
+Stepper motor Nema 17
+moblie battery 12v 
+
+the connection : 
+
+The CNC Shield is basically work as an Arduino UNO Shield that used for powering up and driving stepper motors.
+This CNC shield has 4 motor spots, each spot is mainly for each axis (X, Y, Z AND A) each motor can be connecting to each axis or it can be used one motor that give the three axis . It requires a 12V to 36V power supply
+so i used a 12 v power supply ( old mobile battery ) and easy running of a CNC shield a DRV8825 motor compatible with V3 has been used
+Now, beside each driver there are 4 spots where the stepper motors Nema 17 can be plugged , since i have one stepper motor nema 17 ,so i used one spot . 
+for the battery 
+there is blue box on the CNC shield represents the  battery spots     the + and –  represents the direction  where the  battery cables  connected to it 
