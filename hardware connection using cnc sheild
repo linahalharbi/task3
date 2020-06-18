@@ -13,3 +13,9 @@ so i used a 12 v power supply ( old mobile battery ) and easy running of a CNC s
 Now, beside each driver there are 4 spots where the stepper motors Nema 17 can be plugged , since i have one stepper motor nema 17 ,so i used one spot . 
 for the battery 
 there is blue box on the CNC shield represents the  battery spots     the + and –  represents the direction  where the  battery cables  connected to it 
+
+
+
+
+
+i have use an alternative software to control the cnc sheild and the nema 17 which is Estlcam software : see the Estlcam.doc  and hardware build connection video for more information . 
